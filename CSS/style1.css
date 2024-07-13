@@ -1,0 +1,51 @@
+.Item-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+.pricing {
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  height: 100%;
+  width: 22%;
+  margin-top: 80px;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+.product-coloum {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 23px;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 350px;
+}
+.product-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 3px;
+  z-index: 2;
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    
+}
+
+.card-body-text {
+  text-align: left;
+  padding-left: 30px;
+  line-height: 30px;
+}
+.card-actions {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  float: center;
+}
